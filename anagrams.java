@@ -19,7 +19,7 @@ public class Solution {
             d[b.charAt(i)- 'a']++;
         }
 
-        for(int i = 0 ; i<a.length() ; i++){
+        for(int i = 0 ; i<26 ; i++){
             if(c[i]!=d[i]){
                 return false;
             }
