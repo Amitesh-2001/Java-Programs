@@ -1,9 +1,16 @@
-package labPrograms;
+package Programs.java;
 
-public class Sector {
+public class Sector extends Circle{
+    double angle;
+    Sector(double angle, double R){
+        super();
 
-	public Sector() {
-		// TODO Auto-generated constructor stub
-	}
-
+        this.angle=angle;
+        this.R=R;
+    }
+    void areaOfSector(){
+        double area;
+        area= 0.5 *R*R*angle;
+        System.out.println("area of sector= "+area);
+    }
 }
