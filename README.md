@@ -1,2 +1,2 @@
 # secondstep
-Student programs of java
+Student lab programs of java
